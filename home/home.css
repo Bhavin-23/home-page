@@ -1,0 +1,62 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ header{
+    background-color: brown;
+    padding: 10px;
+ }
+ nav{
+    background-color: chocolate;
+    padding: 0px;
+  }
+ nav ul{
+    display: inline-flex;
+    list-style: none;
+ }
+nav ul li{
+    margin: 10px;
+    text-transform: uppercase;
+  }
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .container{
+    display: flex;   
+    height: 450px;
+  }
+  main{
+    background-color: rgb(16, 136, 118);
+    padding: 10px;
+   }
+  main h2{
+    margin: 20px;
+  }
+  main p{
+    font-size: 20px;
+  }
+  aside{
+    background-color: aqua;
+    padding: 30px;
+    font-size: 20px;
+  }
+  aside ul{
+    margin: 30px;
+  }
+  aside ul li{
+    margin: 20px;
+  }
+  aside ul li a{
+    font-size: 20px;
+    color: rgb(6, 6, 247);
+  }
+  footer{
+    background-color: cornflowerblue;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
